@@ -1,0 +1,63 @@
+//-1 
+
+let preco = 150.0;
+let desconto = 20;
+let precofinal = preco - (preco * desconto / 100);
+console.log("o valor final com desconto é: ", precofinal);
+
+//-2
+
+let peso = 70;
+let altura = 1.75;
+let imc = peso/(altura**2);
+console.log("o IMC é: ", imc);
+
+//-3
+
+let idade = 22;
+let tem_experiencia = true;
+elegivel = (idade >= 18 && tem_experiencia == true);
+console.log("A pessoa é elegível para o concurso:", elegivel);
+
+//-4
+
+let nivel_acesso = 2;
+
+if (nivel_acesso == 3) {
+    console.log("Acesso total");
+}
+else if (nivel_acesso == 2) {
+    console.log("Acesso parcial");
+}
+else {
+    console.log("Acesso negado");
+}
+
+//-5
+
+let celsius = 17;
+let conversao = (celsius * 9/5) + 32;
+console.log(celsius + " graus Celsius equivalem a " + conversao + " graus Fahrenheit");
+
+//-6
+
+let numero = 7;
+if (numero % 2 == 0) {
+    console.log("O número " + numero + " é par");
+}else {
+    console.log("O número " + numero + " é ímpar");
+}
+
+//-7
+
+let peso1 = 25;
+if (peso1 <=5) {
+    console.log("Deve pagar 10 reais de taxa");
+}
+else if (peso1 > 5 && peso1 <= 10){
+    console.log("Deve pagar 20 reais de taxa");
+}
+else {
+    console.log("Deve pagar 30 reais de taxa");
+}
+
